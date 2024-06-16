@@ -1,2 +1,3 @@
-# HTML CSS Bro Code Course
- This repository archives codes learned at Bro Code's HTML and CSS Course
+# HTML and CSS - Bro Code
+ This repository archives Codes made by me while watching Bro Code's HTML and CSS Course
+ (hope I will finish it)
