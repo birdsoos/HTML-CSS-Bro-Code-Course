@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identification Form</title>
+</head>
+<body>
+    <form action="index.php" method="get" enctype="multipart/form-data">
+        <label for="Username">Username: </label>
+        <input type="text" id="Username" minlength="3" maxlength="12" required><br>
+
+        <label for="Email">Email: </label>
+        <input type="email" id="Email" placeholder="example@example.com" required><br>
+
+        <label for="Password">Password: </label>
+        <input type="password" id="Password>" minlength="8" required><br>
+
+        <label for="Phone Number">Phone Number: </label>
+        <input type="tel" id="Phone Number" placeholder="91234-5678" pattern="9[0-9]{4}-[0-9]{4}" required><br>
+
+        <label for="Birthdate">Birthdate: </label>
+        <input type="date" id="Birthdate" required><br>
+
+        <label for="ttl">Title: </label>
+
+        <label for="mr">Mr.</label>
+        <input type="radio" id="mr" value="Mr." name="ttl">
+        <label for="ms">Ms.</label>
+        <input type="radio" id="ms" value="Ms." name="ttl"><br>
+
+        <label for="pay">Payment</label>
+        <select id="pay">
+            <option>Visa</option>
+            <option>Mastercard</option>
+            <option>Gift Card</option>
+        </select><br>
+
+        <label for="kill">Kill ?</label>
+        <input type="checkbox" id="kill"><br>
+
+        <label for="tex">Comments</label>
+        <textarea id="tex" rows="5" cols="25"></textarea><br>
+
+        <label for="file">Send file</label>
+        <input type="file" id="file"><br>
+
+        <br>
+
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
